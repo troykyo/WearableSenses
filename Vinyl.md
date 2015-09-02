@@ -17,7 +17,8 @@ When asked for drivers say Raw and Raw.
 
 Reboot your machine.  
 
-From the Terminal type *lpstat -p -d*
+From the Terminal type 
+  *lpstat -p -d*
 you should see your printer listed here. 
 
 or point your browser to [Printers - CUPS 2.0.0](http://localhost:631/printers/)
@@ -32,7 +33,7 @@ or point your browser to [Printers - CUPS 2.0.0](http://localhost:631/printers/)
 4. in the right hand column click **calculate**
 5. Press **save** and save it to your local machine
 
-if the quality is low raise the dpi (i like 600) of your original and try again.
+Tip: If the quality is low raise the dpi (I like 600 dpi) of your original and try again.
 
 ##Cutting
 
@@ -41,9 +42,9 @@ Run a test cut by removing the cutting blade and running the file to make sure a
 
 From the command line navigate the folder, usually *cd Downloads/*
 The syntax to print is 
-lp -d *printer name* *filename*
+  lp -d *printer name* *filename*
 so in this case we send the command 
-*lp -d vinyl lilians.camm*
+  *lp -d vinyl lilians.camm*
 
 
 
